@@ -1,1 +1,31 @@
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <time.h>
+
+int main () {
+int choixhero;
+
+printf("Voulez vous aller à Galaga (1) ou à Sebastopopol(2)?\n");
+		scanf("%d", &choixhero);
+		printf("\n");
+
+
+switch(choixhero)
+			{
+		
+			case 1 :
+					printf("Vous partez pour Galaga ! \n \n");
+					printf("Après moulte périples vous êtes arrivé à Galaga !\n \n");
+					
+				break;
+				
+				case 2 :
+					printf("Vous partez pour Sebastopopol ! \n \n");
+					printf("Après avoir tourné à droite, vous êtes arrivé à déstination!\n");
+				break;
+				
+	}
+	return 0;
+}
 
