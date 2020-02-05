@@ -1,0 +1,76 @@
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <time.h>
+
+struct Chapitre{
+	char nomChapitre[50];
+	int pV; //pv gagné/ ou perdus
+	int or; // or gagné /perdus
+};
+
+typedef struct nomChapitre
+
+Chapitre 1 = { "Ca sent la rose ..."
+		if (choixhero == 1)
+	{ -30,0;
+	};
+		if (choixhero == 2)
+	{ 20,200;
+
+	};
+ };
+
+int main () {
+
+int pVhero= 100;
+int orHero=0;
+int choixhero;
+
+
+printf("Voulez vous aller à Galaga (1) ou à Sebastopopol(2)?\n");
+		scanf("%d", &choixhero);
+		printf("\n");
+
+
+switch(choixhero)
+	{
+
+		case 1: // l'aventure de Galaga
+
+					printf("CHAPITRE 1: Ca sent la rose ... \n");
+
+					printf("Vous partez pour Galaga, pas un sous en poche, une santé fragile mais affamé d'aventure ! \n \n");
+					printf("Sur la route de la Gueuse Frivole, vous rencontrez une jeune jouvencelle fort attirante, son parfum de rose est emporté par la brise ininterromput de la vallée... \n");
+					printf("Soudain la jeune Femme vous interrompt dans vos rêveries et vous demande un service qui soit disant ... Vous ne pourriez pas refusez ! \n");
+					printf("Vous acceptez d'écouter la mystérieuse Demoiselle (1) ou petit (2) vous lui descernez un coup de latte façon pied bouche monumental en vosciférant qu'une aventure bien plus grande vous attends !!!\n");
+					scanf("%d", &choixhero);
+					printf("\n");
+
+		switch(choixhero)
+			{
+		
+			case 1 : // Aider la gueuse (1)
+
+					printf("Vous vous approchez lentement et avec douceur de la Demoiselle pour lui tendre votre oreille.\n");
+					printf("C'est alors que vous remarquez un nez crochus verdâtre dépasser de sa capuche mais trop tard !! Vous vous ramassez un coup de gourdin dans la trogne et finissez en KO technique au sol!\n");
+					printf("Vous êtes grièvement blessé à la tête et vous ressemblé plus à Casimodo qu'à Ryan Gosling, détroussé et laissé aux vautours vous vous relevez péniblement afin de continuer votre périple.\n");
+					printf("Félicitation en plus de ne plus avoir la tête d'un coureur de jupon vous êtes en une victime doublé d'un pauvre gueux naïf! Vous perdez %d points de vie et ne portez plus que votre slip... \n", pVhero);
+					pVhero = pVhero - pV;
+
+
+
+
+
+
+			case 2 : // Lui mettre un taquet de Viking (2)
+					
+					printf("Avec votre l'élan d'un ours enragé, vous engagez un saut olympique et lui descernez un pied joint dans la fife dont seul les plus grands karatékas ont le secret, avant même que vous ayez vosciféré votre phrase dénuée de sens, vous remarquez que vous venez de mettre KO un bande de Goblins sous un déguisement improvisé!! \n");
+					printf("Vous les détroussez donc de leur vêtement, équipement et de leur or en les laissant pour mort avec seulement un mollard en adieux et une bonne odeur de rose sur vous ...\n");
+
+
+
+				
+	}
+	return 0;
+}
